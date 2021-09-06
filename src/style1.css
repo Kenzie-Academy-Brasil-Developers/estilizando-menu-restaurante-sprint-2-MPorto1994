@@ -17,21 +17,25 @@ Porque display flex + align-items:center não funciona?
 /* General */
 body {
     background-color: black;
+    font-family: 'Lato';
+    background-image:url('img/map-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main {
     background-image:url('img/map-bg.jpg');
     width: 1500px;
-    height: 95vh;
+    /* height: 95vh; */
     display:flex;
     align-items: center;
     margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    
     }
 #main {
     width: 900px; 
     margin: 10px auto;
-    font-family: Lato; 
+     
     font-size: 18px;
     
     }
