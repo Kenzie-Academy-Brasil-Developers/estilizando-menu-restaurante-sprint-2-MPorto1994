@@ -18,9 +18,11 @@ Porque display flex + align-items:center não funciona?
 body {
     background-color: black;
     font-family: 'Lato';
-    background-image:url('img/map-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    scroll-behavior: inherit;
+    overflow: hidden;
+    font-size: 18px;
+    margin: 0%;
 }
 main {
     background-image:url('img/map-bg.jpg');
@@ -28,8 +30,10 @@ main {
     /* height: 95vh; */
     display:flex;
     align-items: center;
-    margin: auto;
-    
+    margin: 0%;
+    background-image:url('img/map-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
     }
 #main {
